@@ -1,0 +1,53 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+ul{}
+li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.slider{
+    background-color: aquamarine;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.img-fit{
+    object-fit: cover;
+}
+.slider h2{
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+.product{
+    flex: auto;
+    width: 30%;
+    display: inline-flex;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
