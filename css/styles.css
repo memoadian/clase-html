@@ -1,7 +1,13 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
 *{
     padding: 0;
     margin: 0;
+}
+.container{
+    padding: 0;
+}
+nav{
+    margin-top: 10px;
 }
 img{
     display: block;
@@ -37,17 +43,29 @@ li{
     position: absolute;
     top: 50px;
 }
-.products{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 10px;
+.title{
+    text-transform: uppercase;
+    padding: 160px 0 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.title h3{
+    font-weight: 600;
+    font-size: 48px;
 }
 .product{
-    flex: auto;
-    width: 30%;
-    display: inline-flex;
+    display: block;
     padding: 10px;
     background-color: blanchedalmond;
+}
+
+@media screen and (max-width: 768px){
+    .product{
+        background-color: rgb(205, 255, 212);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .product{
+        width: 100%;
+    }
 }
